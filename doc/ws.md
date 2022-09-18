@@ -553,7 +553,7 @@ only removes listeners added with
 
 ### websocket.send(data[, options][, callback])
 
-- `data` {Array|Number|Object|String|ArrayBuffer|Buffer|DataView|TypedArray} The
+- `data` {Array|Number|String|ArrayBuffer|Buffer|DataView|TypedArray} The
   data to send.
 - `options` {Object}
   - `binary` {Boolean} Specifies whether `data` should be sent as a binary or
